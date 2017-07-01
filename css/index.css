@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/bgm.jpg);
+}
+
+.header {
+    background-color: #1c448b;
+    height: auto;
+}
+
+.header .top {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px;
+}
+
+li:hover .dropdown-menu {
+    display: block;
+}
+
+.header .logo {
+    float: left;
+}
+
+.header .title {
+    float: right;
+}
+
+.line {
+    color: #fff;
+}
+
+.head-menu {
+    max-width: 1000px;
+    margin: auto;
+    background: url(../img/navbar.png) no-repeat 0 bottom;
+    background-size: 100%;
+}
+
+.input-group .form-control {
+    width: 170px;
+    float: right;
+}
+
+.input-group {
+    max-width: 250px;
+}
+
+.input-sm {
+    padding: 7px 10px;
+}
+
+.navbar-toggle {
+    border: 0;
+    margin-right: 20px;
+}
+
+.rg {
+    float: right;
+    margin: 8px 30px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.item .img-responsive {
+    display: block;
+    width: 100%;
+}
+
+.Arrow {
+    position: relative;
+}
+
+.Arrow .Arrow-left {
+    position: absolute;
+    font-size: 60px;
+    top: -230px;
+    left: -27px;
+    color: #FFF;
+    opacity: 0.5;
+}
+
+.Arrow .Arrow-right {
+    position: absolute;
+    font-size: 60px;
+    top: -230px;
+    left: 965px;
+    color: #FFF;
+    opacity: 0.5;
+}
+
+.row .col-lg-4 a:hover {
+    text-decoration: none;
+}
+
+.imoreuls {
+    float: right;
+    margin-right: 7px;
+}
+
+.selected {
+    background: url(../img/on_bg.jpg) no-repeat left;
+    text-indent: 25px;
+    border-radius: 4px;
+    border-bottom: 2px solid blue;
+    font-weight: bold;
+}
+
+.selected a {
+    color: #fff;
+}
+
+.ulitems {
+    padding-left: 10px;
+}
+
+.ulitems a:hover {
+    text-decoration: none;
+}
+
+.ulitems span {
+    width: 30px;
+    height: 11px;
+    display: inline-block;
+    background: url("../img/new.gif") no-repeat 0 0;
+}
+
+.ulitems li {
+    padding-top: 8px;
+    list-style-type: none;
+}
+
+#ulitem {
+    padding-left: 20px;
+    width: 100%;
+}
+
+#ulitem a:hover {
+    text-decoration: none;
+}
+
+#ulitem li {
+    line-height: 30px;
+}
+
+.school .title {
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+}
+
+.school h3 {
+    color: #1668b2;;
+}
+
+.school .title a {
+    margin-right: 20px;
+    padding: 7px;
+    font-size: 16px;
+    float: right;
+}
+
+.school .title a:hover {
+    text-decoration: none;
+}
+
+.school ul li {
+    list-style-type: none;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+    margin: -1px;
+}
+
+.school ul li a {
+    text-decoration: none;
+    color: #222;
+    font-size: 17px;
+}
+
+.feature-title {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.feature .col-sm-3 {
+    margin: 20px 0;
+}
+
+.feature-title a {
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+.feature a img {
+    display: block;
+    width: 235px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.feature a {
+    display: block;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.feature a p {
+    position: absolute;
+    width: 235px;
+    height: 100%;
+    font-size: 16px;
+    padding-top: 16px;
+    color: #FFFFFF;
+    background-color: #222;
+    opacity: 0.8;
+    border-radius: 3px;
+    transition: all 0.2s;
+}
+
+.feature a:hover p {
+    bottom: -10px;
+}
+
+.footer {
+    background-color: #122f53;
+    height: auto;
+    margin-top: 50px;
+}
+
+.wechat {
+    float: left;
+}
+
+.footer .wechat span {
+    color: #FFF;
+    float: left;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.footer .wechat li {
+    display: inline-block;
+    float: left;
+    width: 43px;
+    height: 44px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.footer .wechat ul {
+    float: left;
+}
+
+.footer .wechat ul li a {
+    display: block;
+    height: 100%;
+}
+
+.footer .wechat ul li:first-child {
+    display: block;
+    background: url(../img/qqweixin.png) no-repeat 0 0;
+    width: 46px;
+    height: 46px;
+    /*border: 1px solid black;*/
+}
+
+.footer .wechat ul li:first-child + li {
+    background: url(../img/qqweixin.png) no-repeat -70px 0;
+    width: 46px;
+    height: 46px;
+}
+
+.footer .wechat ul li:first-child + li + li {
+    background: url(../img/qqweixin.png) no-repeat -144px 0;
+    width: 46px;
+    height: 46px;
+}
+
+.footer .wechat ul li:first-child + li + li + li {
+    background: url(../img/qqweixin.png) no-repeat -217px 0;
+    width: 46px;
+    height: 46px;
+}
+
+.super-link {
+    border-right: 1px solid #5e5e5e;
+    margin-top: 15px;
+}
+
+.super-link .title {
+    font-size: 20px;
+    color: #FFF;
+    margin-left: 7px;
+    margin-top: 15px;
+}
+
+.super-link ul {
+    margin-top: 0;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.super-link ul li {
+    float: left;
+    list-style-type: none;
+    padding: 5px;
+}
+
+.super-link ul li a {
+    text-decoration: none;
+}
+
+.super-img img {
+    display: block;
+    margin: 15px auto;
+}
+
+.super-img p {
+    text-align: center;
+    color: #5e5e5e;
+}
+
+
+
+.footer-img ul li {
+    list-style-type: none;
+    margin-top: 40px;
+    text-align: right;
+    float: left;
+    color: #5e5e5e;
+}
+
+.footer-img img {
+    margin-top: -30px;
+    float: left;
+}

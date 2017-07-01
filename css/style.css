@@ -1,0 +1,398 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: url('http://ganzhsz.cn/fres/img/bgm.jpg');
+}
+li {
+	list-style: none;
+}
+a:hover,a:focus {
+	text-decoration: none;
+}
+.clear  {
+	clear: both;
+}
+.header {
+	position: relative;
+	background: #1C448B;
+	width: 100%;
+	height: auto;
+	padding: 8px 12px;
+	overflow: hidden;
+}
+.header-main {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.header .logo img {
+	height: auto;
+	width: 100%;
+	display: block;
+}
+.header .logo {
+	float: left;
+	padding-top: 3px;
+	max-width: 320px;
+	height: auto;
+}
+.header ul {
+	float: right;
+	margin-bottom: 0px;
+	overflow: hidden;
+}
+.header ul li {
+	float: left;
+	padding:0px 12px;
+}
+.header ul li:first-child {
+	border-right: 1px solid #fff;
+}
+.header ul li a{
+	color: #fff;
+}
+.search {
+	max-width: 240px;
+	float: right;
+	margin-top: 12px;
+}
+.search input {
+	float: left;
+	width: 80%;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	background: transparent;
+	color: #fff;
+	border-right: 0px;
+}
+.search .search-btn {
+	width: 20%;
+	height: 34px;
+	float: left;
+	color: #fff;
+	text-align: center;
+	padding: 7px 0px;
+	margin-left: -1px;
+	border:1px solid #ccc;
+	border-left: 0px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	background: transparent;
+}
+.search .search-btn:hover,.search .search-btn:focus {
+	background: #2258b9;
+}
+/*nav*/
+.head-menu {
+	background: #fff;
+	border:0px;
+	border-bottom: 2px solid #F8C953;
+	border-radius: 0px;
+	min-height: 38px;
+}
+.head-menu .navbar-nav li {
+	position: relative;
+}
+
+.head-menu .navbar-nav li span {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 36px;
+	height: 36px;
+	text-align: center;
+	font-size: 16px;
+	color:#1C448B;
+}
+.head-menu .navbar-nav li span i {
+	padding-top: 10px;
+}
+.head-menu .navbar-nav li a {
+	color: #333;
+	padding: 15px 30px;
+	transition: all 0.1s;
+	font-size: 16px;
+}
+.head-menu .navbar-nav li a:hover {
+	background: #1C448B;
+	color: #fff;
+}
+.head-menu .navbar-nav li.active a{
+	background: #1C448B;
+	color: #fff;
+}
+.head-menu .navbar-header .icon-bar{
+	background: #1C448B;
+}
+.head-menu .navbar-menu {
+	max-width: 1230px;
+	margin: 0 auto;
+}
+.navbar-header .search {
+	float: left;
+	margin-top: 8px;
+	margin-left: 20px;
+}
+.navbar-header .search input{
+	border-color: #1C448B;
+	color: #333;
+}
+.navbar-header .search .search-btn {
+	border-color: #1C448B;
+	color: #333;
+	background: transparent;
+}
+.navbar-header .search .search-btn:hover,.navbar-header .search .search-btn:focus {
+	background: #f0f0f0;
+}
+/*main*/
+.carousel-parent {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+.carousel .carousel-inner img {
+	width: 100%;
+}
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    left: 35px;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    font-size: 80px;
+    font-weight: 100;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+	background: transparent;    
+}
+.carousel-control.left,.carousel-control.right {
+	background: none;
+}
+.carousel-control.right {
+	right: 35px;
+}
+/*home-news*/
+h3.item-title {
+	border-bottom: 1px solid #888;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+h3.item-title a{
+	display: inline-block;
+	font-size: 16px;
+	float: right;
+	margin-top: 8px;
+	margin-right: 20px;
+}
+.home-news {
+	margin-top: 30px;
+}
+.home-news .news-item>a {
+	display: block;
+	margin-bottom: 20px;
+}
+.home-news .news-item img{
+	display: block;
+	min-height: 187px;
+	min-width: 260px;
+	width: 100%;
+	margin: 0 auto;
+}
+.home-news .news-item .title {
+	color: #333;
+	font-size: 18px;
+	line-height: 24px;
+	margin-top: 14px;
+	font-weight: 600;
+}
+.home-news .news-item>a time {
+	color: #999;
+}
+.home-news .news-item>a:hover,.home-news .news-item>a:focus {
+	text-decoration: none;
+}
+.home-news .news-item>a:hover .title,.home-news .news-item>a:focus .title {
+	color: #666;
+}
+.home-news .news-item>a:hover img,.home-news .news-item>a:focus img {
+	opacity: 0.8;
+    filter: alpha(opacity=80)
+}
+.notice .title {
+	font-size: 14px;
+	margin-top: -5px;
+	line-height: 24px;
+}
+.notice .title a {
+	color: #333;
+}
+.notice .title a:hover {
+	opacity: 0.75;
+}
+.notice .time {
+	border: 1px solid #edeaf1;
+    color: #edeaf1;
+    background: #b0a2bb;
+    font-size: 12px;
+    padding: 8px 0px;
+    text-align: center;
+}
+.notice .time time {
+	display: block;
+	font-size: 18px;
+	text-align: center;
+}
+.notice .item {
+	overflow: hidden;
+	margin-bottom: 12px;
+	border-bottom: 1px solid #ddd;
+}
+/*three-list*/
+.three-list .title {
+	margin-bottom: 1px;
+	padding: 20px 0px;
+	border-bottom: 1px solid #777;
+}
+.three-list .title a {
+	font-size: 16px;
+	float: right;
+	margin-right: 20px;
+	padding-top: 7px;
+}
+.three-list li {
+	padding: 15px 0px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ddd;
+	margin: -1px;
+}
+.three-list li:first-child {
+	border-top: 0px;
+}
+.three-list li a {
+	color: #333;
+	font-size: 16px;
+	opacity: 0.75;
+}
+.three-list li a:hover {
+	opacity: 1;
+}
+/*feature 专题专栏*/
+.feature a  {
+	display: block;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+.feature .col-sm-3 {
+	margin: 20px 0px;
+}
+.feature a img {
+	display: block;
+	width: 260px;
+	height: 50px;
+	margin: 0 auto;
+}
+.feature a p {
+	position: absolute;
+	bottom: -65px;
+	font-size: 16px;
+	padding-top: 16px;
+	color: #fff;
+	background: #333;
+	opacity: 0.8;
+	width: 100%;
+	height: 100%;
+	border-radius: 3px;
+	transition: all 0.2s; 
+}
+.feature a:hover p{
+	bottom: -10px;
+}
+/*footer*/
+footer {
+	background: #002147;
+	overflow: hidden;
+	margin-top: 20px;
+	padding: 20px 0;
+	color: #fff;
+}
+.social-account {
+	display: block;
+	overflow: hidden;
+	border-bottom: 1px solid #122f53;
+	padding-bottom: 18px;
+	margin-bottom: 18px;
+}
+.social-account p {
+	float: left;
+	margin-top: 8px;
+	font-size: 20px;
+	color: #fff;
+}
+.social-account li {
+	float: left;
+	margin-left: 13px;
+	background-size: 40px 40px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.social-account li:hover {
+	opacity: 0.5
+}
+.social-account li a {
+	display: block;
+	width: 45px;
+	height: 45px;
+}
+.social-account li:first-child {
+	background-image: url('http://www.pku.edu.cn/images/share01.png');
+
+}
+.social-account li:first-child+li {
+	background-image: url('http://www.pku.edu.cn/images/share02.png');
+}
+.social-account li:first-child+li+li {
+	background-image: url('http://www.pku.edu.cn/images/share03.png');
+}
+.social-account li:first-child+li+li+li {
+	background-image: url('http://www.pku.edu.cn/images/share05.png');
+}
+.quick-link>div{
+	border-right: 1px solid #122f53;
+}
+.quick-link>div:last-child {
+	border-right: 0px;
+}
+.quick-link .title {
+	font-size: 20px;
+}
+.quick-link li{
+	display: inline-block;
+}
+.quick-link a{
+	display: block;
+	padding: 4px 10px 4px 0px;
+	color: #fff;
+	opacity: 0.75;
+}
+.quick-link a:hover,.quick-link a:focus{
+	text-decoration: none;
+	opacity: 1;
+}
+.qrcode {
+	text-align: center;
+}
+.qrcode p {
+	color: #999;
+	margin-top: 8px;
+}
+footer .info {
+	margin: 0px;
+	padding-top: 20px;
+	border-top: 1px solid #122f53;
+	color: #777;
+	text-align: right;
+}
